@@ -77,8 +77,9 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "my_awesome_project.users",
-    "my_awesome_project.section_5",
-    "my_awesome_project.section_7",
+    "my_awesome_project.section_5.apps.Section5Config",
+    "my_awesome_project.section_7.apps.Section7Config",
+    "my_awesome_project.section_8.apps.Section8Config",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps

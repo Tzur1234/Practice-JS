@@ -21,6 +21,7 @@ urlpatterns = [
 
     path('javascript_section5/', include('my_awesome_project.section_5.urls')),
     path('javascript_section7/', include('my_awesome_project.section_7.urls')),
+    path('javascript_section8/', include('my_awesome_project.section_8.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # API URLS
